@@ -1,0 +1,26 @@
+$max_width: 100%;
+$max_cols: 16;
+$single_cols: $max_width / $max_cols;
+$margin_left: 100%;
+
+@for $i from 1 through 16 {
+    .col-#{$i} {
+        width: $single_cols * $i {
+            
+            }
+    };
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    content: "";
+    clear: both;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
